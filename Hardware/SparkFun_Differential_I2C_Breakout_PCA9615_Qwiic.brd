@@ -3234,6 +3234,20 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="24.511" y1="11.303" x2="24.511" y2="8.763" width="0.2032" layer="1"/>
 <wire x1="24.511" y1="11.303" x2="22.098" y2="13.716" width="0.2032" layer="1"/>
 <wire x1="22.098" y1="14.986" x2="22.098" y2="13.716" width="0.2032" layer="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="U2" pad="5"/>
+<wire x1="17.78" y1="7.405" x2="17.78" y2="6.223" width="0.2032" layer="1"/>
+<wire x1="17.78" y1="6.223" x2="18.288" y2="5.715" width="0.2032" layer="1"/>
+<wire x1="21.27" y1="6.03" x2="21.27" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="21.27" y1="6.35" x2="21.27" y2="6.9549" width="0.2032" layer="1"/>
+<wire x1="22.4155" y1="6.35" x2="24.13" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="24.13" y1="6.35" x2="24.511" y2="6.731" width="0.2032" layer="1"/>
+<wire x1="24.511" y1="6.731" x2="24.511" y2="8.763" width="0.2032" layer="1"/>
+<wire x1="18.288" y1="5.715" x2="21.2725" y2="5.715" width="0.2032" layer="1"/>
+<wire x1="21.2725" y1="5.715" x2="21.7805" y2="5.715" width="0.2032" layer="1"/>
+<wire x1="21.7805" y1="5.715" x2="22.4155" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="21.27" y1="6.03" x2="21.27" y2="5.7175" width="0.2032" layer="1"/>
+<wire x1="21.27" y1="5.7175" x2="21.2725" y2="5.715" width="0.2032" layer="1"/>
 </signal>
 <signal name="VDD_B">
 <contactref element="U1" pad="10"/>
@@ -3412,15 +3426,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="19.47" y1="11.43" x2="19.47" y2="10.58" width="0.2032" layer="1"/>
 <wire x1="19.37" y1="9.5551" x2="19.37" y2="10.48" width="0.2032" layer="1"/>
 <wire x1="19.47" y1="10.58" x2="19.37" y2="10.48" width="0.2032" layer="1"/>
-</signal>
-<signal name="VCC_1">
-<contactref element="C6" pad="1"/>
-<contactref element="U2" pad="5"/>
-<wire x1="17.78" y1="7.405" x2="17.78" y2="6.223" width="0.2032" layer="1"/>
-<wire x1="17.78" y1="6.223" x2="18.288" y2="5.715" width="0.2032" layer="1"/>
-<wire x1="21.27" y1="6.03" x2="21.27" y2="6.9549" width="0.2032" layer="1"/>
-<wire x1="18.288" y1="5.715" x2="20.955" y2="5.715" width="0.2032" layer="1"/>
-<wire x1="20.955" y1="5.715" x2="21.27" y2="6.03" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

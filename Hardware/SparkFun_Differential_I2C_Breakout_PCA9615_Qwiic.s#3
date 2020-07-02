@@ -18180,72 +18180,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="AXIAL-0.3">
-<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="AXIAL-0.3EZ">
-<description>This is the "EZ" version of the standard .3" spaced resistor package.&lt;br&gt;
-It has a reduced top mask to make it harder to install upside-down.</description>
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<circle x="-3.81" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="3.81" y="0" radius="0.523634375" width="0" layer="29"/>
-<circle x="-3.81" y="0" radius="1.02390625" width="0" layer="30"/>
-<circle x="3.81" y="0" radius="1.04726875" width="0" layer="30"/>
-</package>
-<package name="AXIAL-0.1">
-<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
-<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="21" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="AXIAL-0.1-KIT">
-<description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
-&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
-<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
-<circle x="-1.27" y="0" radius="1.016" width="0" layer="30"/>
-<circle x="1.27" y="0" radius="1.016" width="0" layer="30"/>
-<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
-<circle x="1.27" y="0" radius="0.4572" width="0" layer="29"/>
-</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -18265,108 +18199,6 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="390OHM" prefix="R">
-<description>&lt;h3&gt;390Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07864"/>
-<attribute name="VALUE" value="390"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="100OHM" prefix="R">
-<description>&lt;h3&gt;100Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12181" constant="no"/>
-<attribute name="VALUE" value="100" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3EZ">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12181" constant="no"/>
-<attribute name="VALUE" value="100" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12181"/>
-<attribute name="VALUE" value="100"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12181" constant="no"/>
-<attribute name="VALUE" value="100" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/4W-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12438"/>
-<attribute name="VALUE" value="100"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07863"/>
-<attribute name="VALUE" value="100"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="4.7KOHM" prefix="R">
 <description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -19065,16 +18897,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -19199,42 +19021,6 @@ VDD_B and GND from cable. </text>
 </instance>
 <instance part="GND3" gate="1" x="25.4" y="152.4" smashed="yes">
 <attribute name="VALUE" x="25.4" y="152.146" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R1" gate="G$1" x="142.24" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.716" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="143.764" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R2" gate="G$1" x="142.24" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.716" y="139.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="143.764" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R3" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.716" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="143.764" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R4" gate="G$1" x="185.42" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="183.896" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.944" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R5" gate="G$1" x="185.42" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="183.896" y="139.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.944" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R6" gate="G$1" x="185.42" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="183.896" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.944" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="142.24" y="170.18" smashed="yes">
-<attribute name="VALUE" x="142.24" y="172.974" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="185.42" y="170.18" smashed="yes">
-<attribute name="VALUE" x="185.42" y="172.974" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND4" gate="1" x="142.24" y="106.68" smashed="yes">
-<attribute name="VALUE" x="142.24" y="106.426" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND5" gate="1" x="185.42" y="106.68" smashed="yes">
-<attribute name="VALUE" x="185.42" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="10.16" y="134.62" smashed="yes">
 <attribute name="NAME" x="11.684" y="137.541" size="1.778" layer="95" font="vector"/>
@@ -19449,16 +19235,6 @@ VDD_B and GND from cable. </text>
 <wire x1="25.4" y1="157.48" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="185.42" y1="109.22" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="142.24" y1="109.22" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="10.16" y1="129.54" x2="10.16" y2="132.08" width="0.1524" layer="91"/>
@@ -19558,16 +19334,6 @@ VDD_B and GND from cable. </text>
 <wire x1="60.96" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC_2"/>
-<wire x1="142.24" y1="170.18" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY6" gate="G$1" pin="VCC_2"/>
-<wire x1="185.42" y1="170.18" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC_2"/>
 <wire x1="60.96" y1="142.24" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
@@ -19621,15 +19387,6 @@ VDD_B and GND from cable. </text>
 <label x="60.96" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="124.46" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="129.54" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
-<junction x="185.42" y="129.54"/>
-<label x="182.88" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="JP1" pin="7"/>
 <wire x1="215.9" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91" style="longdash"/>
 <label x="210.82" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19645,15 +19402,6 @@ VDD_B and GND from cable. </text>
 <pinref part="U1" gate="G$1" pin="DSDA+"/>
 <wire x1="58.42" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <label x="60.96" y="162.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="144.78" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="149.86" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<junction x="185.42" y="149.86"/>
-<label x="182.88" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="8"/>
@@ -19673,15 +19421,6 @@ VDD_B and GND from cable. </text>
 <label x="60.96" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="144.78" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="149.86" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
-<junction x="142.24" y="149.86"/>
-<label x="139.7" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="JP1" pin="2"/>
 <wire x1="215.9" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91" style="longdash"/>
 <label x="210.82" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19697,15 +19436,6 @@ VDD_B and GND from cable. </text>
 <pinref part="U1" gate="G$1" pin="DSCL-"/>
 <wire x1="58.42" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="60.96" y="157.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="124.46" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="129.54" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<junction x="142.24" y="129.54"/>
-<label x="139.7" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="1"/>
