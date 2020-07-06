@@ -4468,15 +4468,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,8f65a0e5a6ad7daa"/>
-<approved hash="19,16,1a42302d0e7bef83"/>
-<approved hash="19,16,8f49bceabb327c0e"/>
-<approved hash="19,16,8f59d912df3a7dae"/>
 <approved hash="19,1,1484277bf6fe39b7"/>
 <approved hash="19,1,873711e79f0b35b4"/>
-<approved hash="5,16,3d6e98babb1b1653"/>
-<approved hash="5,16,c8089fc1a1b5dd1f"/>
 <approved hash="19,16,4cc18f2df882409e"/>
+<approved hash="19,1,224238a85f7ebe03"/>
+<approved hash="19,16,1a42283be6ad0743"/>
+<approved hash="19,16,2faf7daf0883a2ff"/>
+<approved hash="19,16,aed7d807cce182ef"/>
+<approved hash="19,16,2e8b61641480a32f"/>
 </errors>
 </board>
 </drawing>
