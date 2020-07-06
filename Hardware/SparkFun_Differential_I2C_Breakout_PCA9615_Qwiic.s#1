@@ -18378,6 +18378,15 @@ VDD_B and GND from cable. </text>
 <pinref part="I2C" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="G$2" pin="VCC_1"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="104.14" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<wire x1="66.04" y1="101.6" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<junction x="66.04" y="101.6"/>
+<pinref part="SUPPLY6" gate="G$2" pin="VCC_1"/>
+</segment>
 </net>
 <net name="VDD_B" class="0">
 <segment>
@@ -18557,17 +18566,6 @@ VDD_B and GND from cable. </text>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC_1" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="104.14" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="66.04" y1="101.6" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<junction x="66.04" y="101.6"/>
-<pinref part="SUPPLY6" gate="G$2" pin="VCC_1"/>
 </segment>
 </net>
 </nets>
