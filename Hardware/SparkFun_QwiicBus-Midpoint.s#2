@@ -19188,7 +19188,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="88.9" y1="185.42" x2="88.9" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="88.9" y1="81.28" x2="0" y2="81.28" width="0.2032" layer="97" style="longdash"/>
-<text x="114.3" y="76.2" size="1.778" layer="97" font="vector">Clear the I2C jumper to remove the pullups from the bus.</text>
+<text x="114.3" y="76.2" size="1.778" layer="97" font="vector">Cut the I2C jumper to remove the pullups from the bus.</text>
 <text x="2.54" y="30.48" size="2.54" layer="94" font="vector">Headers</text>
 <wire x1="88.9" y1="81.28" x2="88.9" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="35.56" x2="88.9" y2="0" width="0.2032" layer="97" style="longdash"/>
@@ -19202,6 +19202,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="184.404" y="146.304" size="1.778" layer="95" font="vector">VDD_B</text>
 <text x="175.514" y="138.684" size="1.778" layer="95" font="vector">GND</text>
 <text x="148.844" y="7.112" size="2.54" layer="94" font="vector">Based off of design by: Joel Bartlett</text>
+<text x="101.6" y="104.14" size="1.778" layer="97" font="vector">Cut the VDD_B and GND jumpers if you wan't the board to be 
+completely disconnected from power on the RJ45 Jack.
+
+Note that if you do this, you will also need to:
+1. Clear the VREG jumper
+2. Close the A-B Jumper
+3. Supply 3.0-5.5V to the 3.3V pin or VDDB pin</text>
+<text x="12.7" y="132.08" size="1.778" layer="97" font="vector">Cut the PWR 
+jumper to disable
+the PWR LED</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -19243,45 +19253,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND3" gate="1" x="25.4" y="152.4" smashed="yes">
 <attribute name="VALUE" x="25.4" y="152.146" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="33.02" y="134.62" smashed="yes">
-<attribute name="NAME" x="34.544" y="137.541" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="34.544" y="132.461" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="40.64" y="134.62" smashed="yes">
+<attribute name="NAME" x="42.164" y="137.541" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="42.164" y="132.461" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="60.96" y="134.62" smashed="yes">
-<attribute name="NAME" x="62.484" y="137.541" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="62.484" y="132.461" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="66.04" y="134.62" smashed="yes">
+<attribute name="NAME" x="67.564" y="137.541" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="67.564" y="132.461" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C3" gate="G$1" x="45.72" y="134.62" smashed="yes">
-<attribute name="NAME" x="47.244" y="137.541" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="47.244" y="132.461" size="1.778" layer="96" font="vector"/>
+<instance part="C3" gate="G$1" x="53.34" y="134.62" smashed="yes">
+<attribute name="NAME" x="54.864" y="137.541" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="54.864" y="132.461" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C4" gate="G$1" x="73.66" y="134.62" smashed="yes">
-<attribute name="NAME" x="75.184" y="137.541" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="75.184" y="132.461" size="1.778" layer="96" font="vector"/>
+<instance part="C4" gate="G$1" x="78.74" y="134.62" smashed="yes">
+<attribute name="NAME" x="80.264" y="137.541" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="80.264" y="132.461" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="33.02" y="127" smashed="yes">
-<attribute name="VALUE" x="33.02" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND6" gate="1" x="40.64" y="127" smashed="yes">
+<attribute name="VALUE" x="40.64" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="45.72" y="127" smashed="yes">
-<attribute name="VALUE" x="45.72" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND7" gate="1" x="53.34" y="127" smashed="yes">
+<attribute name="VALUE" x="53.34" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND8" gate="1" x="60.96" y="127" smashed="yes">
-<attribute name="VALUE" x="60.96" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND8" gate="1" x="66.04" y="127" smashed="yes">
+<attribute name="VALUE" x="66.04" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="73.66" y="127" smashed="yes">
-<attribute name="VALUE" x="73.66" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND9" gate="1" x="78.74" y="127" smashed="yes">
+<attribute name="VALUE" x="78.74" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$2" x="33.02" y="142.24" smashed="yes">
-<attribute name="VALUE" x="33.02" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$2" x="40.64" y="142.24" smashed="yes">
+<attribute name="VALUE" x="40.64" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$2" x="45.72" y="142.24" smashed="yes">
-<attribute name="VALUE" x="45.72" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$2" x="53.34" y="142.24" smashed="yes">
+<attribute name="VALUE" x="53.34" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="60.96" y="142.24" smashed="yes">
-<attribute name="VALUE" x="60.96" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="66.04" y="142.24" smashed="yes">
+<attribute name="VALUE" x="66.04" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="73.66" y="142.24" smashed="yes">
-<attribute name="VALUE" x="73.66" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="78.74" y="142.24" smashed="yes">
+<attribute name="VALUE" x="78.74" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="JP1" x="152.4" y="144.78" smashed="yes">
 <attribute name="NAME" x="147.32" y="155.448" size="1.778" layer="95" font="vector"/>
@@ -19488,22 +19498,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="33.02" y1="129.54" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="129.54" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="45.72" y1="129.54" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="129.54" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="60.96" y1="129.54" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="129.54" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="73.66" y1="129.54" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="129.54" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -19572,12 +19582,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$2" pin="VCC_1"/>
-<wire x1="33.02" y1="142.24" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="142.24" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="G$2" pin="VCC_1"/>
-<wire x1="45.72" y1="142.24" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="142.24" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
@@ -19619,12 +19629,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC_2"/>
-<wire x1="60.96" y1="142.24" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="142.24" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC_2"/>
-<wire x1="73.66" y1="142.24" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="142.24" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC_2"/>
@@ -19840,6 +19850,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
