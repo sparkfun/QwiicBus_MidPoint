@@ -4118,12 +4118,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.098" y1="19.05" x2="22.098" y2="17.145" width="0.2032" layer="1"/>
 <wire x1="21.17" y1="17.145" x2="22.098" y2="17.145" width="0.2032" layer="1"/>
 <wire x1="21.17" y1="19.05" x2="22.098" y2="19.05" width="0.2032" layer="1"/>
-<wire x1="10.6206" y1="23.65073125" x2="11.09986875" y2="24.13" width="0.2032" layer="1"/>
-<wire x1="11.09986875" y1="24.13" x2="12.7" y2="24.13" width="0.2032" layer="1"/>
-<wire x1="12.7" y1="24.13" x2="13.2" y2="23.63" width="0.2032" layer="1"/>
-<wire x1="13.2" y1="23.63" x2="13.2" y2="21.59" width="0.2032" layer="1"/>
-<wire x1="8.620590625" y1="18.049409375" x2="10.6206" y2="20.04941875" width="0.2032" layer="1"/>
-<wire x1="10.6206" y1="20.04941875" x2="10.6206" y2="23.65073125" width="0.2032" layer="1"/>
+<wire x1="10.6206" y1="22.50773125" x2="10.97286875" y2="22.86" width="0.2032" layer="1"/>
+<wire x1="10.97286875" y1="22.86" x2="12.827" y2="22.86" width="0.2032" layer="1"/>
+<wire x1="12.827" y1="22.86" x2="13.2" y2="22.487" width="0.2032" layer="1"/>
+<wire x1="13.2" y1="22.487" x2="13.2" y2="21.59" width="0.2032" layer="1"/>
+<wire x1="8.35118125" y1="17.78" x2="10.6206" y2="20.04941875" width="0.2032" layer="1"/>
+<wire x1="10.6206" y1="20.04941875" x2="10.6206" y2="22.50773125" width="0.2032" layer="1"/>
 <wire x1="22.098" y1="17.145" x2="22.098" y2="14.986" width="0.2032" layer="1"/>
 <via x="23.241" y="8.763" extent="1-16" drill="0.381"/>
 <wire x1="23.241" y1="8.763" x2="13.335" y2="8.763" width="0.2032" layer="16"/>
@@ -4156,7 +4156,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="5.5245" y="2.54" extent="1-16" drill="0.381"/>
 <wire x1="5.5245" y1="2.54" x2="6.743" y2="2.54" width="0.2032" layer="1"/>
 <contactref element="J5" pad="2"/>
-<wire x1="8.620590625" y1="18.049409375" x2="8.35118125" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="8.35118125" y1="17.78" x2="1.27" y2="17.78" width="0.2032" layer="1"/>
 </signal>
 <signal name="VDD_B">
