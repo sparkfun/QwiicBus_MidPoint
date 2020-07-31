@@ -163,15 +163,15 @@
 <board>
 <plain>
 <text x="23.241" y="-14.478" size="1.778" layer="51" font="vector" ratio="10" align="center">Andy England</text>
-<wire x1="45.72" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="1.27" width="0.2032" layer="20"/>
+<wire x1="45.72" y1="0" x2="26.67" y2="0" width="0.2032" layer="20"/>
+<wire x1="26.67" y1="0" x2="25.4" y2="1.27" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="1.27" x2="0" y2="1.27" width="0.2032" layer="20"/>
 <wire x1="0" y1="1.27" x2="0" y2="26.67" width="0.2032" layer="20"/>
 <wire x1="0" y1="26.67" x2="25.4" y2="26.67" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="26.67" x2="25.4" y2="27.94" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="27.94" x2="45.72" y2="27.94" width="0.2032" layer="20"/>
+<wire x1="25.4" y1="26.67" x2="26.67" y2="27.94" width="0.2032" layer="20"/>
+<wire x1="26.67" y1="27.94" x2="45.72" y2="27.94" width="0.2032" layer="20"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="0" width="0.2032" layer="20"/>
-<text x="36.576" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0">v10</text>
+<text x="36.576" y="0.381" size="1.778" layer="16" font="vector" ratio="15" rot="SMR0">v11</text>
 <dimension x1="0" y1="26.67" x2="45.72" y2="26.67" x3="22.86" y3="36.83" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="1.27" x2="0" y2="26.67" x3="-6.35" y3="13.97" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="26.67" x2="25.4" y2="26.67" x3="12.7" y3="30.48" textsize="1.778" layer="47" unit="inch"/>
@@ -5481,22 +5481,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C4" pad="2"/>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="45.72" y="0"/>
-<vertex x="25.4" y="0"/>
+<vertex x="26.67" y="0"/>
 <vertex x="25.4" y="1.27"/>
 <vertex x="0" y="1.27"/>
 <vertex x="0" y="26.67"/>
 <vertex x="25.4" y="26.67"/>
-<vertex x="25.4" y="27.94"/>
+<vertex x="26.67" y="27.94"/>
 <vertex x="45.72" y="27.94"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="45.72" y="0"/>
-<vertex x="25.4" y="0"/>
+<vertex x="26.67" y="0"/>
 <vertex x="25.4" y="1.27"/>
 <vertex x="0" y="1.27"/>
 <vertex x="0" y="26.67"/>
 <vertex x="25.4" y="26.67"/>
-<vertex x="25.4" y="27.94"/>
+<vertex x="26.67" y="27.94"/>
 <vertex x="45.72" y="27.94"/>
 </polygon>
 <contactref element="GND\" pad="1"/>
@@ -5516,12 +5516,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="25.5905" y="5.461" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="45.72" y="0"/>
-<vertex x="25.4" y="0"/>
+<vertex x="26.67" y="0"/>
 <vertex x="25.4" y="1.27"/>
 <vertex x="0" y="1.27"/>
 <vertex x="0" y="26.67"/>
 <vertex x="25.4" y="26.67"/>
-<vertex x="25.4" y="27.94"/>
+<vertex x="26.67" y="27.94"/>
 <vertex x="45.72" y="27.94"/>
 </polygon>
 <contactref element="PWR" pad="1"/>
@@ -5812,13 +5812,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="38.12783125" y1="7.7978" x2="33.9754875" y2="7.7978" width="0.2032" layer="1"/>
 <wire x1="32.385" y1="9.3882875" x2="33.9754875" y2="7.7978" width="0.2032" layer="1"/>
 <wire x1="44.45" y1="12.7" x2="41.529" y2="15.621" width="0.2032" layer="1"/>
-<wire x1="41.529" y1="19.431" x2="40.64" y2="20.32" width="0.2032" layer="1"/>
-<wire x1="40.64" y1="20.32" x2="38.1" y2="20.32" width="0.2032" layer="1"/>
-<wire x1="36.195" y1="19.600403125" x2="36.195" y2="18.415" width="0.2032" layer="1"/>
-<wire x1="36.640278125" y1="20.04568125" x2="36.195" y2="19.600403125" width="0.2032" layer="1"/>
-<wire x1="37.82568125" y1="20.04568125" x2="36.640278125" y2="20.04568125" width="0.2032" layer="1"/>
-<wire x1="38.1" y1="20.32" x2="37.82568125" y2="20.04568125" width="0.2032" layer="1"/>
-<wire x1="41.529" y1="15.621" x2="41.529" y2="19.431" width="0.2032" layer="1"/>
+<wire x1="41.529" y1="18.034" x2="39.878" y2="19.685" width="0.2032" layer="1"/>
+<wire x1="39.878" y1="19.685" x2="37.422596875" y2="19.685" width="0.2032" layer="1"/>
+<wire x1="36.195" y1="18.457403125" x2="36.195" y2="18.415" width="0.2032" layer="1"/>
+<wire x1="37.422596875" y1="19.685" x2="36.195" y2="18.457403125" width="0.2032" layer="1"/>
+<wire x1="41.529" y1="15.621" x2="41.529" y2="18.034" width="0.2032" layer="1"/>
 <wire x1="32.385" y1="9.398" x2="32.385" y2="9.3882875" width="0.2032" layer="1"/>
 </signal>
 <signal name="GRN_N">
@@ -5839,14 +5837,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="36.1442" y1="15.4715875" x2="36.1442" y2="16.3800125" width="0.2032" layer="1"/>
 <wire x1="37.9700125" y1="8.1788" x2="39.9542" y2="10.1629875" width="0.2032" layer="1"/>
 <wire x1="39.9542" y1="10.1629875" x2="39.9542" y2="12.4430125" width="0.2032" layer="1"/>
-<wire x1="44.45" y1="15.24" x2="41.91" y2="17.78" width="0.2032" layer="1"/>
+<wire x1="44.45" y1="15.24" x2="42.545" y2="15.24" width="0.2032" layer="1"/>
+<wire x1="42.545" y1="15.24" x2="41.91" y2="15.875" width="0.2032" layer="1"/>
 <wire x1="32.83921875" y1="15.875" x2="32.385" y2="15.875" width="0.2032" layer="1"/>
-<wire x1="36.482459375" y1="20.42668125" x2="34.9194875" y2="18.863709375" width="0.2032" layer="1"/>
-<wire x1="37.0594" y1="20.42668125" x2="36.482459375" y2="20.42668125" width="0.2032" layer="1"/>
-<wire x1="37.33371875" y1="20.701" x2="37.0594" y2="20.42668125" width="0.2032" layer="1"/>
-<wire x1="41.91" y1="17.78" x2="41.91" y2="19.588825" width="0.2032" layer="1"/>
-<wire x1="41.91" y1="19.588825" x2="40.797825" y2="20.701" width="0.2032" layer="1"/>
-<wire x1="40.797825" y1="20.701" x2="37.33371875" y2="20.701" width="0.2032" layer="1"/>
+<wire x1="36.121778125" y1="20.066" x2="34.9194875" y2="18.863709375" width="0.2032" layer="1"/>
+<wire x1="41.91" y1="15.875" x2="41.91" y2="18.191825" width="0.2032" layer="1"/>
+<wire x1="41.91" y1="18.191825" x2="40.035825" y2="20.066" width="0.2032" layer="1"/>
+<wire x1="40.035825" y1="20.066" x2="36.121778125" y2="20.066" width="0.2032" layer="1"/>
 <wire x1="34.9194875" y1="17.0997125" x2="34.925" y2="17.0942" width="0.2032" layer="1"/>
 <wire x1="34.9194875" y1="18.863709375" x2="34.9194875" y2="17.0997125" width="0.2032" layer="1"/>
 <wire x1="36.195" y1="11.938" x2="36.2458" y2="11.8872" width="0.2032" layer="1"/>
