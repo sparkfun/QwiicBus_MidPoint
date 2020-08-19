@@ -22343,7 +22343,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="88.9" y1="91.44" x2="88.9" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="114.3" x2="0" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="185.42" x2="88.9" y2="114.3" width="0.2032" layer="97" style="longdash"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <wire x1="88.9" y1="81.28" x2="0" y2="81.28" width="0.2032" layer="97" style="longdash"/>
 <text x="114.3" y="76.2" size="1.778" layer="97" font="vector">Cut the I2C jumper to remove the pullups from the bus.</text>
 <text x="2.54" y="30.48" size="2.54" layer="94" font="vector">Headers</text>

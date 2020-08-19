@@ -5749,8 +5749,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J3" pad="4"/>
 <wire x1="34.925" y1="19.5072" x2="34.925" y2="15.8877" width="0.3048" layer="16"/>
 <wire x1="34.925" y1="15.875" x2="34.925" y2="15.8877" width="0.2032" layer="16"/>
-<wire x1="34.9758" y1="19.558" x2="34.9758" y2="20.6375" width="1.016" layer="16"/>
-<wire x1="34.9758" y1="20.6375" x2="35.9283" y2="21.59" width="1.016" layer="16"/>
+<wire x1="34.9758" y1="19.558" x2="34.9758" y2="21.209" width="1.016" layer="16"/>
+<wire x1="35.3568" y1="21.59" x2="35.9283" y2="21.59" width="1.016" layer="16"/>
+<wire x1="35.3568" y1="21.59" x2="34.9758" y2="21.209" width="1.016" layer="16"/>
 <wire x1="34.925" y1="19.5072" x2="34.9758" y2="19.558" width="0.3048" layer="16"/>
 <wire x1="35.9283" y1="21.59" x2="36.83" y2="21.59" width="1.016" layer="16"/>
 </signal>

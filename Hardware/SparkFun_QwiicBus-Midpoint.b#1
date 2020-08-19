@@ -5137,6 +5137,24 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="23.114" y="12.827" extent="1-16" drill="0.381"/>
 <wire x1="21.871" y1="12.9825" x2="22.9585" y2="12.9825" width="0.2032" layer="1"/>
 <wire x1="22.9585" y1="12.9825" x2="23.114" y2="12.827" width="0.2032" layer="1"/>
+<via x="13.462" y="18.923" extent="1-16" drill="0.381"/>
+<via x="13.716" y="17.272" extent="1-16" drill="0.381"/>
+<via x="14.478" y="18.288" extent="1-16" drill="0.381"/>
+<via x="15.621" y="19.05" extent="1-16" drill="0.381"/>
+<via x="18.796" y="19.431" extent="1-16" drill="0.381"/>
+<via x="15.113" y="9.779" extent="1-16" drill="0.381"/>
+<via x="14.478" y="13.589" extent="1-16" drill="0.381"/>
+<via x="17.399" y="19.304" extent="1-16" drill="0.381"/>
+<via x="20.066" y="22.098" extent="1-16" drill="0.381"/>
+<via x="7.366" y="24.511" extent="1-16" drill="0.381"/>
+<via x="8.128" y="25.273" extent="1-16" drill="0.381"/>
+<via x="2.54" y="20.828" extent="1-16" drill="0.381"/>
+<via x="26.67" y="22.86" extent="1-16" drill="0.381"/>
+<via x="6.223" y="12.7" extent="1-16" drill="0.381"/>
+<via x="6.35" y="17.78" extent="1-16" drill="0.381"/>
+<via x="5.969" y="10.287" extent="1-16" drill="0.381"/>
+<via x="3.81" y="10.16" extent="1-16" drill="0.381"/>
+<via x="5.08" y="6.223" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VDD_B">
 <contactref element="VDD_B" pad="1"/>
