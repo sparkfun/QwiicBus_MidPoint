@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.6266666" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -185,51 +185,39 @@
 </package>
 <package name="POWERPAKSO-8">
 <polygon width="0.127" layer="1">
-<vertex x="0.9" y="1.99"/>
-<vertex x="0.9" y="-1.99"/>
-<vertex x="0.67" y="-1.99"/>
-<vertex x="0.67" y="-2.45"/>
-<vertex x="0.15" y="-2.45"/>
-<vertex x="0.15" y="-1.88"/>
-<vertex x="-2.76" y="-1.88"/>
-<vertex x="-2.76" y="-2.085"/>
-<vertex x="-3.37" y="-2.085"/>
-<vertex x="-3.37" y="-1.675"/>
-<vertex x="-2.76" y="-1.675"/>
-<vertex x="-2.76" y="-0.8366"/>
-<vertex x="-3.37" y="-0.8366"/>
-<vertex x="-3.37" y="-0.4166"/>
-<vertex x="-2.76" y="-0.4166"/>
-<vertex x="-2.76" y="0.4166"/>
-<vertex x="-3.37" y="0.4166"/>
-<vertex x="-3.37" y="0.8366"/>
-<vertex x="-2.76" y="0.8366"/>
-<vertex x="-2.76" y="1.675"/>
-<vertex x="-3.37" y="1.675"/>
-<vertex x="-3.37" y="2.085"/>
-<vertex x="-2.76" y="2.085"/>
-<vertex x="-2.76" y="1.88"/>
-<vertex x="0.15" y="1.88"/>
-<vertex x="0.15" y="2.45"/>
-<vertex x="0.67" y="2.45"/>
-<vertex x="0.67" y="1.99"/>
+<vertex x="0.5" y="2"/>
+<vertex x="0.5" y="-1.5"/>
+<vertex x="-0.5" y="-1.5"/>
+<vertex x="-0.5" y="-2"/>
+<vertex x="-1" y="-2"/>
+<vertex x="-1" y="-1.88"/>
+<vertex x="-3.76" y="-1.88"/>
+<vertex x="-3.76" y="-2.085"/>
+<vertex x="-4.386665625" y="-2.085"/>
+<vertex x="-4.386665625" y="-1.253334375"/>
+<vertex x="-3.76" y="-1.253334375"/>
+<vertex x="-3.76" y="-0.626665625"/>
+<vertex x="-4.386665625" y="-0.626665625"/>
+<vertex x="-4.386665625" y="0"/>
+<vertex x="-4" y="0"/>
+<vertex x="-4" y="0.5"/>
+<vertex x="-4.5" y="0.5"/>
+<vertex x="-4.5" y="1"/>
+<vertex x="-4" y="1"/>
+<vertex x="-4" y="1.5"/>
+<vertex x="-4.5" y="1.5"/>
+<vertex x="-4.5" y="2.5"/>
+<vertex x="-3.76" y="2.506665625"/>
+<vertex x="-3.76" y="1.88"/>
+<vertex x="-1.253334375" y="1.88"/>
+<vertex x="-1" y="2.5"/>
+<vertex x="-0.5" y="2.5"/>
+<vertex x="-0.5" y="2"/>
 </polygon>
-<smd name="P$1" x="2.475" y="1.88" dx="0.61" dy="0.41" layer="1"/>
-<smd name="P$2" x="2.475" y="0.626665625" dx="0.61" dy="0.41" layer="1"/>
-<smd name="P$3" x="2.475" y="-0.626665625" dx="0.61" dy="0.41" layer="1"/>
-<smd name="P$4" x="2.475" y="-1.88" dx="0.61" dy="0.41" layer="1"/>
-<smd name="P$5" x="-1" y="0" dx="0.61" dy="0.41" layer="1"/>
-</package>
-<package name="1212-8">
-<smd name="P$1" x="-1.49" y="-0.33" dx="0.99" dy="0.405" layer="1"/>
-<smd name="P$2" x="-1.49" y="0.33" dx="0.99" dy="0.405" layer="1"/>
-<smd name="P$3" x="-1.49" y="0.99" dx="0.99" dy="0.405" layer="1"/>
-<smd name="P$4" x="-1.49" y="-0.99" dx="0.99" dy="0.405" layer="1"/>
-<smd name="P$5" x="1.7475" y="0.99" dx="0.76" dy="0.405" layer="1"/>
-<smd name="P$6" x="1.7475" y="0.33" dx="0.76" dy="0.405" layer="1"/>
-<smd name="P$7" x="1.7475" y="-0.33" dx="0.76" dy="0.405" layer="1"/>
-<smd name="P$8" x="1.7475" y="-0.99" dx="0.76" dy="0.405" layer="1"/>
-<smd name="P$9" x="0.5025" y="0" dx="1.725" dy="2.235" layer="1"/>
+<smd name="P$1" x="1.88" y="1.88" dx="0.61" dy="0.41" layer="1"/>
+<smd name="P$2" x="1.88" y="0.626665625" dx="0.61" dy="0.41" layer="1"/>
+<smd name="P$3" x="1.88" y="-0.626665625" dx="0.61" dy="0.41" layer="1"/>
+<smd name="P$4" x="1.88" y="-1.88" dx="0.61" dy="0.41" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -330,17 +318,6 @@ to –40V.</description>
 </devices>
 </deviceset>
 <deviceset name="SI7164DP">
-<gates>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SI7120AD">
 <gates>
 </gates>
 <devices>
