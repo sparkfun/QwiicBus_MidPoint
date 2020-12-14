@@ -290,10 +290,10 @@
 <pin name="UVL" x="-12.7" y="20.32" length="short"/>
 <pin name="IN" x="-12.7" y="25.4" length="short"/>
 <pin name="SENSE" x="-12.7" y="27.94" length="short"/>
-<pin name="GATE" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="SOURCE" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="STATUS" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="!SHDN" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="GATE" x="12.7" y="27.94" length="short" rot="R180"/>
+<pin name="SOURCE" x="12.7" y="22.86" length="short" rot="R180"/>
+<pin name="STATUS" x="12.7" y="20.32" length="short" rot="R180"/>
+<pin name="!SHDN" x="12.7" y="-25.4" length="short" rot="R180"/>
 <pin name="TIMER" x="12.7" y="-27.94" length="short" rot="R180"/>
 <wire x1="-10.16" y1="30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-30.48" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
@@ -504,7 +504,7 @@ to –40V.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="SMAJ36A" constant="no"/>
+<attribute name="VALUE" value="24V" constant="no"/>
 </technology>
 </technologies>
 </device>
