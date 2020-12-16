@@ -24093,7 +24093,7 @@ to –40V.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="24V" constant="no"/>
+<attribute name="VALUE" value="SMAJ36A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24213,10 +24213,8 @@ to –40V.</description>
 <part name="R14" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
 <part name="C17" library="hotswap" deviceset="39NF" device="-0805-50V-10%" value="39nF"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
-<part name="D1" library="hotswap" deviceset="DIODE_TVS_UNI" device="" value="24V"/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-8X10.5-50V" value="100uF"/>
+<part name="D1" library="hotswap" deviceset="DIODE_TVS_UNI" device="" value="SMAJ36A"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
@@ -25174,15 +25172,8 @@ BP MUST be cut/open</text>
 <attribute name="NAME" x="113.792" y="152.4" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="109.728" y="152.4" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="C16" gate="G$1" x="104.14" y="149.86" smashed="yes" rot="MR0">
-<attribute name="NAME" x="103.124" y="150.495" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="103.124" y="145.669" size="1.778" layer="96" font="vector" rot="MR0"/>
-</instance>
 <instance part="GND16" gate="1" x="111.76" y="139.7" smashed="yes">
 <attribute name="VALUE" x="111.76" y="139.446" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND17" gate="1" x="104.14" y="139.7" smashed="yes">
-<attribute name="VALUE" x="104.14" y="139.446" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND19" gate="1" x="127" y="81.28" smashed="yes">
 <attribute name="VALUE" x="127" y="81.026" size="1.778" layer="96" align="top-center"/>
@@ -25288,11 +25279,6 @@ BP MUST be cut/open</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C16" gate="G$1" pin="-"/>
-<wire x1="104.14" y1="144.78" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
@@ -25365,11 +25351,7 @@ BP MUST be cut/open</text>
 <junction x="121.92" y="154.94"/>
 <wire x1="119.38" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 <junction x="119.38" y="154.94"/>
-<pinref part="C16" gate="G$1" pin="+"/>
-<wire x1="111.76" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="152.4" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<junction x="104.14" y="154.94"/>
+<wire x1="111.76" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="152.4" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 <junction x="111.76" y="154.94"/>
 <pinref part="D1" gate="G$1" pin="C"/>

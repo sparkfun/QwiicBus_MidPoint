@@ -5786,12 +5786,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-07868" x="-47.95" y="-68.05" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-47.95" y="-68.812" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D1" library="hotswap" package="DO-214AC" value="24V" x="-46.35" y="-71" smashed="yes"/>
-<element name="C16" library="SparkFun-Capacitors" package="8X10.5" value="100uF" x="-54.5" y="-66.85" smashed="yes">
-<attribute name="NAME" x="-55" y="-62.35" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CAP-15455" x="-54.5" y="-66.85" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-55" y="-71.85" size="0.6096" layer="27" font="vector" ratio="20"/>
-</element>
+<element name="D1" library="hotswap" package="DO-214AC" value="SMAJ36A" x="-46.35" y="-71" smashed="yes"/>
 </elements>
 <signals>
 <signal name="SDA">
@@ -5962,12 +5957,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.3985" y="2.3495" extent="1-16" drill="0.35"/>
 <contactref element="C13" pad="2"/>
 <contactref element="D1" pad="A"/>
-<contactref element="C16" pad="-"/>
 <contactref element="C17" pad="2"/>
 <contactref element="U4" pad="EXP"/>
 <contactref element="U4" pad="6"/>
-<wire x1="-47.05" y1="-64.65" x2="-51.45" y2="-66.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.1402" y1="-71" x2="-47.05" y2="-64.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.05" y1="-64.65" x2="-44.1402" y2="-71" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.1" y1="-51.5" x2="-47.05" y2="-64.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.75" y1="-28.5" x2="-47.1" y2="-51.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.25" y1="-27.1" x2="-42.75" y2="-28.5" width="0" layer="19" extent="1-1"/>
@@ -6527,9 +6520,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R9" pad="2"/>
 <contactref element="U4" pad="12"/>
 <contactref element="R10" pad="P$1"/>
-<contactref element="C16" pad="+"/>
 <contactref element="D1" pad="C"/>
-<wire x1="-48.509" y1="-71" x2="-57.55" y2="-66.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.1" y1="-68.05" x2="-48.509" y2="-71" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.475" y1="-41.6" x2="-47.1" y2="-68.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.5" y1="-38.3" x2="-44.475" y2="-41.6" width="0" layer="19" extent="1-1"/>

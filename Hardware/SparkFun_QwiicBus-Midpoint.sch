@@ -24227,7 +24227,7 @@ to –40V.</description>
 <wire x1="73.66" y1="71.12" x2="73.66" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="114.3" x2="0" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="185.42" x2="88.9" y2="119.38" width="0.2032" layer="97" style="longdash"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v13</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v14</text>
 <wire x1="88.9" y1="119.38" x2="88.9" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <wire x1="73.66" y1="71.12" x2="0" y2="71.12" width="0.2032" layer="97" style="longdash"/>
 <text x="5.08" y="96.52" size="1.27" layer="97" font="vector">Cut the I2C 
@@ -24245,7 +24245,6 @@ the bus.</text>
 jumper to disable
 the PWR LED</text>
 <text x="78.74" y="91.44" size="2.54" layer="94" font="vector">3.8-36V In, 3.3V 3A Out Buck Regulator</text>
-<text x="78.74" y="88.9" size="1.27" layer="94" font="vector">VIN: 3.8V-32V</text>
 <text x="91.44" y="99.06" size="1.27" layer="97" font="vector">Depending on load and distance requirements, there are several different ways to power the Midpoint/Endpoint combo. 
 ---
 The default option powers the entire system using 3.3V, in this configuration, the BP jumper is closed and both sides of the PSEL jumper are open.
@@ -25103,8 +25102,10 @@ BP MUST be cut/open</text>
 <sheet>
 <plain>
 <text x="166.116" y="11.176" size="2.54" layer="94" font="vector">Andy England</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v13</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v14</text>
 <text x="148.844" y="7.112" size="2.54" layer="94" font="vector">Based off of design by: Joel Bartlett</text>
+<text x="2.54" y="180.34" size="2.54" layer="94" font="vector">Hot Swap Controller</text>
+<text x="2.54" y="177.8" size="1.778" layer="94" font="vector">Delays start-up for 40 ms</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
